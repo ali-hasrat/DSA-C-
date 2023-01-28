@@ -37,5 +37,5 @@ int main()
 	return 0;
 }
 
-//Time Complexity: O(N), Traversing over the array of size N.
+//Time Complexity: O(n*n)
 //Auxiliary Space Complexity: O(1)
