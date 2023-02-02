@@ -25,13 +25,13 @@ void printTwoElements(int arr[], int size)
 int main()
 {
 	int n;
-    printf("Enter the size of Array: ");
-    scanf("%d",&n);
+    cout<<"Enter the size of Array: ";
+    cin>>n;
     int arr[n]; 
-    printf("Enter the elements of Array: ");
+    cout<<"Enter the elements of Array: ";
     for (int i = 0; i < n; i++)
     {
-        scanf("%d",&arr[i]);
+        cin>>arr[i];
     }
 	printTwoElements(arr, n);
     return 0;
