@@ -1,6 +1,5 @@
 //Program to check whether the no. is Palindrome or not
 
-#include<iostream>
 #include<bits/stdc++.h>
 using namespace std;
 int palindrome(int n)
