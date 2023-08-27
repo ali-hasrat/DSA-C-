@@ -1,7 +1,11 @@
+// Program to find Trailing Zeroes in Factorial of any number.
 #include<iostream>
 #include<bits/stdc++.h>
 using namespace std;
+
 //Naive Mathod
+//Time Complexity = Theta(n)
+
 /*int countzeroes(int n)
 {
     int fact=1;
@@ -21,7 +25,11 @@ using namespace std;
     cout<<"No. of triling Zeroes: "<<res;
     // return res;
 }*/
-int trailingZeroes(int n)
+
+//Efficient Method
+//Time Complexity= Theta(log n)
+
+/*int trailingZeroes(int n)
 {
     int res=0;
     for(int i=5;i<=n;i=i*5)
@@ -29,12 +37,15 @@ int trailingZeroes(int n)
        res=res+n/i; 
     }
     cout<<"No. of triling Zeroes: "<<res;
-}
+}*/
 int main()
 {
     int n;
     cout<<"Enter the No:";
     cin>>n;
-    trailingZeroes(n);
+
+    // countzeroes(n)
+    // trailingZeroes(n);
+
     return 0;
 }
